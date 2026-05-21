@@ -13,7 +13,7 @@ tekst = "trzy"
 liczba = int(tekst)  # <-- To rzuci błąd ValueError!
 print(f"Udało się! Liczba to: {liczba}")
 
-# Tutaj sugerujemy dodać coś aby błąd zostaje złapany
+# TODO: Tutaj użyj except ValueError: i wypisz komunikat "To nie jest liczba!"
 
 
 print("--- Koniec programu (Udało się doprowadzić program do końca!) ---")
