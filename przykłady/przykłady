@@ -19,7 +19,7 @@ print("--- KONIEC PRZYKŁADU (Program nie scrashował i działa do końca) ---")
 
 
 """
-Rozwiązanie Zadania 1
+Przykład
 """
 
 try:
