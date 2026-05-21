@@ -1,0 +1,17 @@
+// PRZYKŁAD: Wyjście poza tablicę
+
+public class Przyklad {
+    public static void main(String[] args) {
+        int[] liczby = {10, 20, 30}; // Tablica ma tylko 3 elementy (indeksy 0, 1, 2)
+
+        try {
+            // Java próbuje wyświetlić czwarty element (indeks 3) – to rzuci błąd!
+            System.out.println(liczby[3]); 
+            
+        } catch (ArrayIndexOutOfBoundsException blad) {
+            // Łapiemy błąd i podajemy zmienną 'blad'. 
+            // Program nie crashuje, tylko wypisuje nasz komunikat:
+            System.out.println("Przykład: Taki indeks nie istnieje w tablicy!");
+        }
+    }
+}
