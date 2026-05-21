@@ -1,0 +1,19 @@
+"""
+PRZYKŁAD: Podstawowa obsługa wyjątków przy użyciu try...except
+Temat: Blokowanie crashu programu przy dzieleniu przez zero.
+"""
+
+print("--- START PRZYKŁADU ---")
+
+try:
+    # Python próbuje wykonać poniższe działanie matematyczne
+    wynik = 10 / 0
+    print(f"Wynik to: {wynik}")
+    
+except ZeroDivisionError:
+    # Jeśli w bloku 'try' pojawi się błąd ZeroDivisionError,
+    # Python nie wyłączy programu, tylko przejdzie tutaj:
+    print("[INFO] Komunikat z sekcji except: Nie można dzielić przez zero!")
+
+print("--- KONIEC PRZYKŁADU (Program nie scrashował i działa do końca) ---")
+
