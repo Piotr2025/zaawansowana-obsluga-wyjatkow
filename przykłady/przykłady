@@ -17,3 +17,22 @@ except ZeroDivisionError:
 
 print("--- KONIEC PRZYKŁADU (Program nie scrashował i działa do końca) ---")
 
+
+"""
+Rozwiązanie Zadania 1
+"""
+
+try:
+    liczba = int(input("Podaj liczbę, przez którą mam podzielić 100: "))
+    wynik = 100 / liczba
+    print(f"Wynik to: {wynik}")
+
+except ValueError:
+    print("Błąd: Musisz podać liczbę całkowitą, a nie tekst!")
+
+except ZeroDivisionError:
+    print("Błąd: Nie można dzielić przez zero!")
+
+except Exception as e:
+    print(f"Wystąpił inny, nieznany błąd: {e}")
+
