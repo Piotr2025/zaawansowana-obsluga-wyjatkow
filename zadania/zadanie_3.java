@@ -1,5 +1,5 @@
 /*
-ZADANIE 1: Zabezpiecz program przed dzieleniem przez zero.
+ZADANIE 3: Zabezpiecz program przed dzieleniem przez zero.
 W Javie próba podzielenia liczby całkowitej przez 0 wyrzuca błąd ArithmeticException.
 
 Twoje zadanie: 
