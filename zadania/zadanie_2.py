@@ -1,5 +1,5 @@
 """
-Zadanie 1: Zaawansowana obsługa wyjątków.
+Zadanie 2: Zaawansowana obsługa wyjątków.
 Program ma pobierać od użytkownika liczbę i dzielić przez nią liczbę 100.
 Zabezpiecz program przed dwoma błędami:
 1. Wpisaniem tekstu zamiast liczby (ValueError).
