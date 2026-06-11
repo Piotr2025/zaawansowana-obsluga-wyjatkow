@@ -8,7 +8,7 @@ public class Main {
             // Niska warstwa rzuciła błąd bazy danych:
             throw new DatabaseException("FATAL: password authentication failed", null);
         } 
-        // TODO: Złap DatabaseException a następnie zrób wyjątek UserNotFoundException (patrz slajd 11),
+        // TODO: Złap DatabaseException a następnie zrób wyjątek UserNotFoundException,
         //       przekazując oryginalny wyjątek jako drugi argument, aby zachować oryginalny Stack Trace.
         catch (DatabaseException e) {
         }
