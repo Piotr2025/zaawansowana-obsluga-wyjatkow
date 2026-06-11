@@ -1,5 +1,5 @@
 /*
-ZADANIE: Bezpieczne dzielenie w Rust.
+ZADANIE 4: Bezpieczne dzielenie w Rust.
 Stworzyliśmy funkcję "bezpieczne_dzielenie", która zwraca Ok(wynik) 
 lub Err("Nie można dzielić przez zero!").
 
