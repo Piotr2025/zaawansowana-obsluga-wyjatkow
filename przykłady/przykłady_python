@@ -36,3 +36,21 @@ except ZeroDivisionError:
 except Exception as e:
     print(f"Wystąpił inny, nieznany błąd: {e}")
 
+
+Przykład
+
+try:
+    # Tutaj wpisujesz kod, który MOŻE wygenerować błąd
+    liczba = int(input("Podaj liczbę: "))
+    wynik = 10 / liczba
+    print(f"Wynik 10 podzielone przez {liczba} to: {wynik}")
+
+except ZeroDivisionError:
+    # Ten kod wykona się TYLKO, jeśli użytkownik wpisze 0
+    print("Ej, nie można dzielić przez zero!")
+
+except ValueError:
+    # Ten kod wykona się, jeśli użytkownik wpisze np. "XYZ" zamiast liczby
+    print("To nie jest poprawna liczba!")
+
+
